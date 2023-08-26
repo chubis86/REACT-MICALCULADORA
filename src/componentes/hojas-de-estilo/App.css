@@ -1,0 +1,63 @@
+.App {
+  padding:10px;
+  width: 100%;
+  min-width: 500px;
+  height: 100vh;
+  min-height: 550px;
+  background-color:#6B8AC4;
+  display:flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.titulo{
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+  color: white;
+}
+
+.logo{
+  width: 45%;
+  min-width: 450px;
+  height: auto;
+}
+
+.contenedor-principal{
+  width: 400px;
+  height: 500px;
+  background-color: #435B89;
+  border:1px solid black;
+  border-radius: 20px;
+  box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 10px;
+}
+
+.pantalla{
+  width: 90%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  height: 50px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  font-size:1.6em;
+}
+
+.fila{
+  width: 90%;
+  height: 60px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 15px;
+}
